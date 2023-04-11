@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*
+    Цветовая Гамма Этого Шаблона
+    При Желении Может Быть Изменена:
+
+    $main-color: #4e31aa;
+    $secondary-color: #434242;
+
+    $main-color: #181d31;
+    $secondary-color: #000;
+
+    $main-color: #181d31;
+    $secondary-color: #000;
+
+    $main-color: #355764;
+    $secondary-color: #5a8f7b;
+
+
+*/
+body {
+  background: #fff;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Tahoma;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+}
+
+header {
+  background: #245953;
+  color: #fff;
+  height: 60px;
+}
+
+#logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  padding-top: 4px;
+}
+nav li {
+  list-style: none;
+  float: left;
+  padding-right: 21px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover, nav a.active {
+  color: #7c9b98;
+}
+
+.podrobnosti {
+  height: 400px;
+}
+
+.podrobnosti-inner {
+  height: 150px;
+}
+
+.podrobnosti, .podrobnosti-inner {
+  background: url("../img/business.webp") no-repeat 0 -400px;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 1.7em;
+}
+
+.podrobnosti .container {
+  height: 500px;
+  overflow: auto;
+}
+
+.podrobnosti h1, .podrobnosti-inner h1 {
+  background: #000000;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.button, .button-b, .button-a {
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+.button-a {
+  background: #245953;
+}
+
+.button-b {
+  background: #408e91;
+}
+
+.button-a:hover {
+  background: #3a6a64;
+}
+
+.button-b:hover {
+  background: #53999c;
+}
+
+.button-b {
+  background: #408e91;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+.section-a {
+  background: #245953;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.section-b {
+  padding: 20px 0;
+}
+
+.box {
+  width: 24%;
+  float: left;
+  text-align: center;
+}
+
+.fa {
+  font-size: 55px;
+  color: #245953;
+}
+
+.spisok-vygod {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.spisok-vygod li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 30px 0;
+  margin-top: 30px;
+  background: #245953;
+  color: #fff;
+}
+
+.demo {
+  width: 24%;
+  float: left;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.demo img {
+  width: 100%;
+}
+
+form#kontact div {
+  background: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+form#kontact input[type=text] {
+  width: 100%;
+  height: 30px;
+  border: #ccc solid 1px;
+  padding: 4px;
+}
+
+form#kontact textarea {
+  width: 100%;
+  height: 70px;
+  border: #ccc solid 1px;
+  padding: 4px;
+}
