@@ -1,0 +1,1 @@
+This basic multi-page site is my first experience with Sass. At the moment there are only a few pages here, but in the future, there may be more. Here you can easily add subcategories and pages with products or services, interactive elements, audio and video files. If desired, the color of the template can be easily changed, and its original dimensions can be changed
